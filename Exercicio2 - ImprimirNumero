@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+/*Faça um Programa que peça um número, então mostre a mensagem O número informado foi [número]. */
+
+public class ImprimirUmNumero {
+
+	public static void main(String[] args) {
+		
+		Scanner entrada = new Scanner(System.in);
+
+		System.out.println("Digite um número: ");
+		double numero = entrada.nextDouble();
+		
+		System.out.println("Número escolhido: " + numero);
+		
+
+		entrada.close();
+	}
+}

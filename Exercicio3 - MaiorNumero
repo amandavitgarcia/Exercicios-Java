@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+//	Faça um Programa que peça dois números e imprima o maior deles
+
+public class MaiorNumero {
+	
+	public static void main(String[] args) {
+		
+		Scanner entrada = new Scanner(System.in);
+
+		
+		System.out.println("Digite o primeiro número inteiro: ");
+		double num1 = entrada.nextDouble();
+		
+		System.out.println("Digite o segundo número inteiro: ");
+		double num2 = entrada.nextDouble();
+		
+		if(num1 > num2) {
+			System.out.println("O maior: " + num1);
+		} else if (num2 > num1){
+			System.out.println("O maior: " + num2);
+		} else {
+			System.out.println("Números iguais");
+		}
+		entrada.close();
+	}
+}

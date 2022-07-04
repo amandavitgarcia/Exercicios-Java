@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+//	Faça um Programa que converta metros para centímetros
+
+public class ConverterMetrosCentrimetos {
+	
+	public static void main(String[] args) {
+		
+		Scanner entrada = new Scanner(System.in);
+
+		System.out.println("Digite o valor em metros: ");
+		int metros = entrada.nextInt();
+		
+		int centimetros = metros * 100;
+		
+		System.out.println("Convertido em: " + centimetros + " CM ");
+		
+		entrada.close();
+	}
+}
